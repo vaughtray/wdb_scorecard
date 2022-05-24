@@ -12,7 +12,7 @@
 	}
 </script>
 
-<select id="courseSelect" on:click={handleCourse}>
+<select id="courseSelect" on:change={handleCourse}>
 	<option slected=true>Choose Course</option>
 	<option value="Glendarin Hills">Glendarin Hills</option>
 	<option value="Bella Vista">Bella Vista</option>

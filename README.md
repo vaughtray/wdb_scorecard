@@ -25,8 +25,12 @@ Install the dependencies...
 ```bash
 cd svelte-app
 npm install
+npm i realm-web
+npm install mongodb --save
+npm i axios
 ```
 
+## Need API Key before beginning dev session
 ...then start [Rollup](https://rollupjs.org):
 
 ```bash
